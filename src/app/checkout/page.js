@@ -13,10 +13,10 @@ export default function Checkout() {
       }}
     >
       <h2>Thanks!</h2>
-      <p>That's all I've prepared for this store concept.</p>
+      <p>{`That's all I've prepared for this store concept.`}</p>
       <p>
-        I hope you enjoyed this experience and haven't encountered any annoying
-        bugs.
+        {`I hope you enjoyed this experience and haven't encountered any annoying
+        bugs.`}
       </p>
       <p></p>
       <Link href={"/"}>
