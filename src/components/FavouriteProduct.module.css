@@ -1,0 +1,51 @@
+.favouriteProduct {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.favouriteProductDetails {
+  text-transform: capitalize;
+  padding: 0.25rem 1rem 1rem 1rem;
+}
+
+.favouriteProductDetails h3 {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.favouriteProductDetails p {
+  padding-bottom: 0.5rem;
+}
+
+.favouriteProductDetails p:last-of-type {
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.buttonContainer {
+  display: flex;
+}
+
+/* Probably it would be a better decision to have all those color selectors as props, in a button component.  */
+.addFavButton button {
+  margin-left: 0rem;
+  background-color: var(--color-green-alt);
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.addFavButton button:hover {
+  background-color: var(--color-green-alt-hover);
+}
+
+.removeFavButton button {
+  background-color: var(--color-yellow-alt);
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.removeFavButton button:hover {
+  background-color: var(--color-yellow-alt-hover);
+}

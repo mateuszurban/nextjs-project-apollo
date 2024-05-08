@@ -1,0 +1,71 @@
+body {
+  --font-size-default: 16px;
+  --font-family-default: Arial, sans-serif;
+
+  font-size: var(--font-size-default);
+  font-family: var(--font-family-default);
+  color: var(--color-text-default);
+
+  --color-text-default: #12100e;
+  --color-white: #f4f1de;
+  --color-white-alt: #f1edee;
+  --color-grey: #c4bbaf;
+
+  --color-theme-main: #48372c;
+
+  --color-theme-lighter: #604d41;
+  --color-theme-darker: #372a21;
+  --color-alt-rose: #e5c2c0;
+  --color-alt-blue: #3e78b2;
+
+  --color-red-alt: #d47588;
+  --color-red-alt-hover: #c36175;
+  --color-yellow: #d5c67a;
+  --color-yellow-alt: #ffddb0;
+  --color-yellow-alt-hover: #fec984;
+  --color-green-alt: #a7e6d0;
+  --color-green-alt-hover: #78e3be;
+  --color-green: #456041;
+}
+
+a,
+a:visited {
+  color: var(--color-text-default);
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Moves footer all the way down, while making space for the main content. */
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+button {
+  cursor: pointer;
+}

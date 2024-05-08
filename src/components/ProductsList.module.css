@@ -1,0 +1,14 @@
+.productsList {
+  width: 100%;
+  margin-right: 6rem;
+}
+
+.productsList ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.productsPage {
+  display: flex;
+}

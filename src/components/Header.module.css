@@ -1,0 +1,41 @@
+.header {
+  color: var(--color-white);
+  background-color: var(--color-theme-main);
+  font-weight: 700;
+  display: flex;
+  width: 100vw;
+  min-width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.header a,
+.header a:visited {
+  color: var(--color-white);
+}
+
+.header a:first-of-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.header img:first-of-type {
+  margin-right: 0.5rem;
+}
+
+.header li:first-of-type {
+  margin-left: 4rem;
+  margin-right: auto;
+}
+
+.header li {
+  width: 8rem;
+}
+
+.header li:first-of-type {
+  width: 16rem;
+}

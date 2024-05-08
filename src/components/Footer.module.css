@@ -1,0 +1,26 @@
+.footer {
+  color: var(--color-white);
+  background-color: var(--color-theme-main);
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+  width: 100vw;
+  align-items: center;
+}
+
+.footer a,
+.footer a:visited {
+  color: var(--color-white);
+}
+
+.footer a {
+  padding: 0.5rem;
+  text-transform: capitalize;
+}
+
+.footerPanel {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  padding: 2rem;
+}

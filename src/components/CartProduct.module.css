@@ -1,0 +1,36 @@
+.cartProduct {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.cartProductDetails {
+  text-transform: capitalize;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.cartProductDetails h3 {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.cartProductDetails p {
+  padding-bottom: 0.25rem;
+}
+
+.cartProductDetails p:last-of-type {
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.cartProductDetails button {
+  margin-left: 0rem;
+  background-color: var(--color-red-alt);
+  color: var(--color-white);
+  margin-top: 0.75rem;
+}
+
+.cartProductDetails button:hover {
+  background-color: var(--color-red-alt-hover);
+}

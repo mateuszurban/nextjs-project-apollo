@@ -1,0 +1,24 @@
+.filterMenu {
+  padding: 1rem;
+  margin: 1.5rem;
+  width: 12rem;
+}
+
+.filterMenu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.filterMenu li {
+  text-transform: capitalize;
+  padding-bottom: 0.25rem;
+}
+
+.filterMenuCategory {
+  margin-bottom: 1rem;
+}
+
+.filterMenuSubcategory {
+  margin-left: 2rem;
+  padding-top: 0.25rem;
+}

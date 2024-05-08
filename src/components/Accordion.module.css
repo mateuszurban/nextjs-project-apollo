@@ -1,0 +1,18 @@
+.accordion {
+  margin: 4rem;
+}
+
+.accordion h2 {
+  margin-bottom: 1rem;
+}
+
+/* TODO: Look for usual hover behaviours AND check for a11y of those; maybe add an animation to the whole accordion. */
+.accordion h2:hover {
+}
+
+.accordion p {
+  margin-bottom: 1.5rem;
+  width: 50%;
+  border-top: solid 1px black;
+  padding-top: 0.5rem;
+}

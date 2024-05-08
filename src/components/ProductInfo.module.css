@@ -1,0 +1,22 @@
+.productInfo h2 {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.productInfo p {
+  margin-bottom: 0.5rem;
+}
+
+.productInfo button {
+  margin-left: 0rem;
+  background-color: var(--color-green-alt);
+}
+
+.productInfo button:hover {
+  background-color: var(--color-green-alt-hover);
+}
+
+.productPrice {
+  font-weight: 700;
+  font-size: 1.25rem;
+}

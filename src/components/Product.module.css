@@ -1,0 +1,43 @@
+.product {
+  position: relative;
+  margin-bottom: 3rem;
+  padding: 0.25rem;
+  max-width: 300px;
+}
+
+.product h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+  text-transform: capitalize;
+}
+
+.product p {
+  margin-bottom: 0.25rem;
+}
+
+.product p:last-of-type {
+  font-weight: 700;
+}
+
+.starComponentStyle {
+  position: absolute;
+  top: 0.75rem;
+  left: 17rem;
+  width: 24px;
+  height: 24px;
+  transform: scale(1.5);
+
+  /* SVG base64 encoded to CSS */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='%23fbf6f6' stroke='%23e5c2c0' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' %3E%3Cpolygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2' /%3E%3C/svg%3E");
+}
+
+.starComponentStyle:hover {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='%23e5c2c0' stroke='%23e5c2c0' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' %3E%3Cpolygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2' /%3E%3C/svg%3E");
+}
+
+.product button {
+  border: none;
+}
