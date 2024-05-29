@@ -1,6 +1,6 @@
 .cartWrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .cartItems {
@@ -14,9 +14,11 @@
 
 .cartSummary {
   padding: 3rem;
-  width: 25%;
-
+  width: 100%;
   font-size: 1.25rem;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .cartSummary h2 {
@@ -45,4 +47,27 @@
 
 .cartSummary button:hover {
   background-color: var(--color-green-alt-hover);
+}
+
+/* widths 480 or more */
+@media (min-width: 480px) {
+}
+
+/* widths 768 or more */
+@media (min-width: 768px) {
+}
+
+/* widths 1080 or more */
+@media (min-width: 1080px) {
+  .cartWrapper {
+    flex-direction: row;
+  }
+  .cartSummary {
+    padding: 3rem;
+    width: 25%;
+    font-size: 1.25rem;
+
+    display: block;
+    /* flex-direction: row; */
+  }
 }

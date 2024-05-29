@@ -1,4 +1,5 @@
 .filterMenu {
+  display: none;
   padding: 1rem;
   margin: 1.5rem;
   width: 12rem;
@@ -21,4 +22,19 @@
 .filterMenuSubcategory {
   margin-left: 2rem;
   padding-top: 0.25rem;
+}
+
+/* widths 480 or more */
+@media (min-width: 480px) {
+}
+
+/* widths 768 or more */
+@media (min-width: 768px) {
+}
+
+/* widths 1080 or more */
+@media (min-width: 1080px) {
+  .filterMenu {
+    display: flex;
+  }
 }

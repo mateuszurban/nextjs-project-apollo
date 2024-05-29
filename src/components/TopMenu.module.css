@@ -4,14 +4,35 @@
   font-weight: 700;
   display: flex;
   width: 100vw;
-  min-width: 100%;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
-
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 .topmenu a,
 .topmenu a:visited {
   color: var(--color-theme-main);
+}
+
+.topmenu a {
+  padding: 0.25rem;
+}
+
+@media (min-width: 480px) {
+  .topmenu {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 0.5rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .topmenu {
+    padding: 1rem 0;
+  }
+}
+
+@media (min-width: 1080px) {
 }

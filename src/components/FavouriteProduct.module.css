@@ -1,11 +1,12 @@
 .favouriteProduct {
   display: flex;
+  flex-direction: column;
   margin-bottom: 0.5rem;
 }
 
 .favouriteProductDetails {
   text-transform: capitalize;
-  padding: 0.25rem 1rem 1rem 1rem;
+  padding: 0.25rem 1rem 1rem 0rem;
 }
 
 .favouriteProductDetails h3 {
@@ -26,6 +27,7 @@
 
 .buttonContainer {
   display: flex;
+  flex-direction: column;
 }
 
 /* Probably it would be a better decision to have all those color selectors as props, in a button component.  */
@@ -44,8 +46,34 @@
   background-color: var(--color-yellow-alt);
   cursor: pointer;
   margin-top: 0.5rem;
+  margin-left: 0rem;
 }
 
 .removeFavButton button:hover {
   background-color: var(--color-yellow-alt-hover);
+}
+
+/* widths 480 or more */
+@media (min-width: 480px) {
+}
+
+/* widths 768 or more */
+@media (min-width: 768px) {
+  .favouriteProduct {
+    flex-direction: row;
+  }
+  .buttonContainer {
+    flex-direction: row;
+  }
+  .removeFavButton button {
+    margin-left: 1rem;
+  }
+  .favouriteProductDetails {
+    text-transform: capitalize;
+    padding: 0.25rem 1rem 1rem 1rem;
+  }
+}
+
+/* widths 1080 or more */
+@media (min-width: 1080px) {
 }

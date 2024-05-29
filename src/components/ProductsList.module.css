@@ -1,14 +1,27 @@
 .productsList {
-  width: 100%;
-  margin-right: 6rem;
-}
-
-.productsList ul {
+  width: 100vw;
   display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
+  flex-direction: column;
 }
 
 .productsPage {
   display: flex;
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 480px) {
+}
+
+/* widths 768 or more */
+@media (min-width: 768px) {
+}
+
+/* widths 1080 or more */
+@media (min-width: 1080px) {
+  .productsPage {
+    flex-direction: row;
+  }
+  .productsList {
+    width: 100%;
+  }
 }

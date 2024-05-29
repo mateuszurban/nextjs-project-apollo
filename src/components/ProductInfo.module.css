@@ -1,6 +1,7 @@
 .productInfo h2 {
   text-transform: capitalize;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .productInfo p {
@@ -19,4 +20,19 @@
 .productPrice {
   font-weight: 700;
   font-size: 1.25rem;
+}
+
+/* widths 480 or more */
+@media (min-width: 480px) {
+}
+
+/* widths 768 or more */
+@media (min-width: 768px) {
+}
+
+/* widths 1080 or more */
+@media (min-width: 1080px) {
+  .productInfo h2 {
+    margin-top: 0rem;
+  }
 }

@@ -1,11 +1,12 @@
 .cartProduct {
   display: flex;
+  flex-direction: column;
   margin-bottom: 0.5rem;
 }
 
 .cartProductDetails {
   text-transform: capitalize;
-  padding: 0.5rem 1rem 1rem 1rem;
+  padding: 0.5rem 1rem 1rem 0rem;
 }
 
 .cartProductDetails h3 {
@@ -29,8 +30,33 @@
   background-color: var(--color-red-alt);
   color: var(--color-white);
   margin-top: 0.75rem;
+  height: 4rem;
 }
 
 .cartProductDetails button:hover {
   background-color: var(--color-red-alt-hover);
+}
+
+/* widths 480 or more */
+@media (min-width: 480px) {
+}
+
+/* widths 768 or more */
+@media (min-width: 768px) {
+  .cartProduct {
+    flex-direction: row;
+  }
+  .cartProductDetails {
+    padding: 0 1rem 1rem 1rem;
+  }
+  .cartProductDetails button {
+    height: 4rem;
+  }
+}
+
+/* widths 1080 or more */
+@media (min-width: 1080px) {
+  .cartProductDetails button {
+    height: 3.5rem;
+  }
 }

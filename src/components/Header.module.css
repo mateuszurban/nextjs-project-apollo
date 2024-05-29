@@ -4,10 +4,10 @@
   font-weight: 700;
   display: flex;
   width: 100vw;
-  min-width: 100%;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   padding: 1rem 0;
+  gap: 1rem;
 }
 
 .header a,
@@ -17,25 +17,33 @@
 
 .header a:first-of-type {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   margin-right: 2rem;
 }
 
-.header img:first-of-type {
-  margin-right: 0.5rem;
+.header li:first-of-type img {
+  display: none;
 }
 
 .header li:first-of-type {
-  margin-left: 4rem;
+  margin-left: 2rem;
   margin-right: auto;
 }
 
-.header li {
-  width: 8rem;
+@media (min-width: 480px) {
+  .header a:first-of-type {
+    margin-right: 2rem;
+  }
+  .header li:first-of-type img {
+    display: block;
+    margin-right: 0.25rem;
+  }
+  .header li:first-of-type {
+    margin-left: 2rem;
+  }
 }
 
-.header li:first-of-type {
-  width: 16rem;
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1080px) {
 }
